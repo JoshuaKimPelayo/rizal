@@ -1,0 +1,105 @@
+@font-face {
+    font-family: kingdom;
+    src: url(Underwood\ Champion.ttf);
+}
+
+@font-face {
+    font-family: roza;
+    src: url(Rozalyn\ Shadow.ttf);
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+    background-color: #C3B091;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+h3 {
+	font-family: roza;
+}
+
+.navbar-light, 
+.navbar-toggler {
+	color: #000;
+	border-color: #000;
+}
+
+header {
+background: no-repeat center center;
+background-size: cover;
+color: white;
+}
+
+u {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.color-overlay {
+background-color: rgba(0,0,0,0.4);
+min-height: 60vh;
+}
+
+.Rizal{
+	font-size: 7vw;
+	font-weight: bolder;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	opacity: .4;
+}
+
+.text-center {
+	font-family: Kingdom;
+}
+
+.float-sm-none {
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px #C2B280;
+	margin-bottom: 20px;
+}
+
+.singleCol {
+max-width: 750px;
+}
+
+.card{
+	background-color: #C2B280;
+	margin-bottom: 5%;
+}
+
+.card-title {
+	font-family: roza;
+}
+
+.card-text {
+	font-family: Kingdom;
+}
+
+.btn-outline-dark:hover {
+	background-color: #6F4E37;
+}
+.card-img-top{
+	width: 100%;
+	height: 380px;
+
+}
+.lead{
+    text-indent: 3%;
+	margin-bottom: 7%;
+	font-family: Kingdom;
+}
+@media (max-width: 768px){
+.color-overlay{
+min-height: 30vh;
+}
+}
